@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\search">
+      <UniqueIdentifier>{d9b0e7f4-8c6f-4a34-b876-0ea87b7a4be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\config">
+      <UniqueIdentifier>{31e2e1a0-30c7-4c6c-8c41-d2b73597a9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\read">
+      <UniqueIdentifier>{7b163448-4871-4ba7-9303-b618299150f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\print">
+      <UniqueIdentifier>{4af6e302-2761-4b79-85b4-9d38a14d2d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_check.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search_in_same_route.c">
+      <Filter>源文件\search</Filter>
+    </ClCompile>
+    <ClCompile Include="search_input.c">
+      <Filter>源文件\search</Filter>
+    </ClCompile>
+    <ClCompile Include="read.c">
+      <Filter>源文件\read</Filter>
+    </ClCompile>
+    <ClCompile Include="search_check.c">
+      <Filter>源文件\search</Filter>
+    </ClCompile>
+    <ClCompile Include="print_route.c">
+      <Filter>源文件\print</Filter>
+    </ClCompile>
+    <ClCompile Include="print_alias.c">
+      <Filter>源文件\print</Filter>
+    </ClCompile>
+    <ClCompile Include="search_in_different_route.c">
+      <Filter>源文件\search</Filter>
+    </ClCompile>
+    <ClCompile Include="query.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search_fuzzy_search.c">
+      <Filter>源文件\search</Filter>
+    </ClCompile>
+    <ClCompile Include="add_alias.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="read.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\alias_beside.cfg">
+      <Filter>资源文件\config</Filter>
+    </None>
+    <None Include="config\route.cfg">
+      <Filter>资源文件\config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

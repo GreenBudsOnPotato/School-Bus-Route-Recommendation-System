@@ -38,9 +38,10 @@
 ## 版权声明
 Copyright © 2025 GreenBudsOnPotato.<br>
 Copyright © 2025 Ryudoya Network Studio, Liangjiang New District, Chongqing.<br>
-![个人图标](Resource/个人图标.png "选择菜单")
+![个人图标](Resource/个人图标.png "个人图标")
 
 原作者保留对本软件著作权的保护、追诉等权利。使用或修改本软件时需严格遵守`GPL-v3.0`内规定的内容进行声明或开源。
 
 ## 隐私政策 (Privacy policy)
+
 本软件不存在需要联网的板块。我们不收集任何用户数据, 不使用任何遥测组件。

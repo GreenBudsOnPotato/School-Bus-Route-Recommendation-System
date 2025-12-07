@@ -10,7 +10,7 @@
 
 //验证站点
 static char* get_valid_station_name(void) {
-    const size_t BUF = 50;
+    const size_t BUF = 22;
     char* input = malloc(BUF);
     char* formal_name = NULL;
 
@@ -21,7 +21,7 @@ static char* get_valid_station_name(void) {
 
     while (1) {
         printf("请输入要添加别名的站点（支持别名和模糊搜索）：");
-        if (fgets(input, (int)BUF, stdin) == NULL) {
+        if (fgets(input, BUF, stdin) == NULL) {
             free(input);
             return NULL;
         }
@@ -58,7 +58,7 @@ static char* get_valid_station_name(void) {
 
         // 尝试模糊搜索
         printf("正在通过别名查找站点...\n");
-        if (fuzzy_search(&input)) {
+        if (fuzzy_search(input)) {
             formal_name = _strdup(input);
             free(input);
             return formal_name;
@@ -294,9 +294,8 @@ void aliadd(void) {
     system("cls");
     printf("========== 添加站点别名/周边建筑/地标 ==========\n\n");
 
-    int* c;
+    int c;
     while ((c = getchar()) != '\n' && c != EOF);
-    free(c);
 
     // 获取有效站点名
     char* station_name = get_valid_station_name();
